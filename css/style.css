@@ -8,6 +8,7 @@ a {
   text-decoration: none;
 }
 
+/* Start Header */
 header .top {
   background-color: #2d3e50;
   min-height: 60px;
@@ -27,7 +28,7 @@ header .top a i {
 }
 
 .navbar {
-    padding: 20px 0;
+  padding: 20px 0;
 }
 .navbar-brand {
   text-transform: uppercase;
@@ -48,11 +49,84 @@ header .top a i {
   padding: 10px 45px !important;
 }
 
-.nav-link:hover,.nav-link.active {
+.nav-link:hover,
+.nav-link.active {
   color: #ffc000 !important;
 }
 
 #search-btn {
-    all: unset;
-    cursor: pointer;
+  all: unset;
+  cursor: pointer;
 }
+
+/* End Header */
+
+/* Start Slider */
+
+.slide .caption {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  color: #fff;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  text-align: center;
+  width: 640px;
+  text-transform: capitalize;
+}
+
+.slide .caption h2 {
+  font-size: 55px;
+  margin-bottom: 15px;
+}
+
+.slide .caption h2 span {
+  color: #ffc000;
+}
+
+.slide .caption p {
+  font-weight: 300;
+}
+
+.btn-warning {
+  background-color: #ffc000;
+  min-width: 210px;
+  padding: 10px;
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+  color: #fff;
+}
+
+.slide .caption .btn-warning {
+  margin-top: 35px;
+}
+
+.carousel-item {
+  height: 780px;
+}
+
+.carousel-item img {
+  height: 100%;
+  object-fit: cover;
+}
+
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23ffc000'><path d='M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z'/></svg>");
+}
+
+.carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23ffc000'><path d='M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z'/></svg>");
+}
+
+.carousel-indicators [data-bs-target] {
+  background-color: #ffc000;
+  height: 7px;
+}
+
+/* End Slider */
