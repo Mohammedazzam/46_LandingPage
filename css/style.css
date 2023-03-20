@@ -297,3 +297,24 @@ header .top a i {
 }
 
 /* End Numbers */
+
+/* Start Offer */
+.we-offer {
+  margin-bottom: 100px;
+}
+
+.we-offer .box figure {
+  width: 50px;
+  flex: 0 0 auto;
+  margin-right: 60px;
+}
+
+.we-offer .box .caption h2 {
+  font-size: 22px;
+  font-weight: 400;
+}
+
+.we-offer h2 span {
+  color: #ffc000;
+}
+/* End Offer */
