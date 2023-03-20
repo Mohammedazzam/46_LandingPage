@@ -222,6 +222,7 @@ header .top a i {
 /* Start Services */
 .services {
   position: relative;
+  overflow: hidden;
 }
 
 .services>figure {
@@ -229,6 +230,7 @@ header .top a i {
   width: 45%;
   left: 0;
   top: 0;
+  height: 600px;
 }
 
 .services>figure>img {
@@ -265,3 +267,33 @@ header .top a i {
   font-weight: 600;
 }
 /* End Services */
+
+/* Start Numbers */
+
+.numbers {
+  background-image: url('../images/numbers.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  min-height: 300px;
+}
+
+.numbers .item {
+  color: #fff;
+  text-align: center;
+  padding-top: 100px;
+}
+
+.numbers .item h4 {
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.numbers .item strong {
+  font-size: 45px;
+}
+
+/* End Numbers */
