@@ -162,7 +162,7 @@ header .top a i {
   padding: 80px 20px;
   font-weight: 300;
   line-height: 1.8;
-  border: 1px solid ;
+  border: 1px solid;
   transition: 0.3s;
   -webkit-transition: 0.3s;
   -moz-transition: 0.3s;
@@ -205,7 +205,7 @@ header .top a i {
 }
 
 .about .box:hover {
-  background: transparent ;
+  background: transparent;
   color: #000;
 }
 
@@ -213,9 +213,9 @@ header .top a i {
   background: #ffc000;
 }
 
-.about .box:hover figure img{
-  filter: brightness(0)invert(1);
-  -webkit-filter: brightness(0)invert(1);
+.about .box:hover figure img {
+  filter: brightness(0) invert(1);
+  -webkit-filter: brightness(0) invert(1);
 }
 /* End About */
 
@@ -225,7 +225,7 @@ header .top a i {
   overflow: hidden;
 }
 
-.services>figure {
+.services > figure {
   position: absolute;
   width: 45%;
   left: 0;
@@ -233,7 +233,7 @@ header .top a i {
   height: 600px;
 }
 
-.services>figure>img {
+.services > figure > img {
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -271,7 +271,7 @@ header .top a i {
 /* Start Numbers */
 
 .numbers {
-  background-image: url('../images/numbers.png');
+  background-image: url("../images/numbers.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -320,4 +320,61 @@ header .top a i {
 /* End Offer */
 
 /* Start Gallery */
+.gallery {
+  margin-bottom: 100px;
+}
+
+.gallery figure {
+  margin: 0;
+  position: relative;
+  height: 500px;
+  overflow: hidden;
+}
+
+.gallery figure img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.gallery figure a {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  display: grid;
+  place-content: center;
+  background: rgb(255 192 0 / 51%);
+  color: #fff;
+  opacity: 0;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+  transform: translateY(100%);
+  -webkit-transform: translateY(100%);
+  -moz-transform: translateY(100%);
+  -ms-transform: translateY(100%);
+  -o-transform: translateY(100%);
+}
+
+.gallery figure:hover a {
+  opacity: 1;
+  transform: translateY(0);
+  -webkit-transform: translateY(0);
+  -moz-transform: translateY(0);
+  -ms-transform: translateY(0);
+  -o-transform: translateY(0);
+}
+
+.nav-tabs,
+.nav-tabs .nav-link {
+  border: 0;
+}
+
+.nav-tabs {
+  margin-bottom: 40px;
+}
 /* End Gallery */
